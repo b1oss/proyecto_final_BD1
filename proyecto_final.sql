@@ -8,7 +8,8 @@ CREATE TABLE cliente (
     prim_apell VARCHAR(50),
     seg_apell VARCHAR(50),
     genero CHAR,
-    distrito VARCHAR(50)
+    distrito VARCHAR(50),
+    correo varchar(100),
 );
 
 CREATE TABLE empleado (
