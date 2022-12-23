@@ -9,7 +9,8 @@ CREATE TABLE cliente (
     seg_apell VARCHAR(50),
     genero CHAR,
     distrito VARCHAR(50),
-    correo varchar(100),
+    correo VARCHAR(100),
+    contrasenia VARCHAR(100)
 );
 
 CREATE TABLE empleado (
@@ -19,7 +20,8 @@ CREATE TABLE empleado (
     seg_apell VARCHAR(50),
     genero CHAR,
     correo VARCHAR(100),
-    fecha_nacimiento date
+    fecha_nacimiento date,
+    contrasenia VARCHAR(100)
 );
 
 CREATE TABLE telefonos_empleado (
